@@ -18,7 +18,7 @@ class _TeacherState extends State<Teacher> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Image.network('https://lh3.googleusercontent.com/proxy/PFMzLD7q_L2VIeFyGBW7uLMAjyvJB_yN1hY8t8PPlH1tIJMnyW5r_fS6BnQ9W_17jZ32bQkHUM5zHhzbIh8b3oiAtGrp1a0g',height: 200),
+                  Image.asset('images/t01.jpg',height: 200),
                   SizedBox(height: 10),
                   Text("นายนรังค์   ตรีธัญญา"),
                 ],
@@ -29,7 +29,7 @@ class _TeacherState extends State<Teacher> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
-                  Image.network('http://202.29.244.187/image.php?src=files/importpic/3449900121491.jpg&x=200&f=0',height: 200),
+                  Image.asset('images/t02.jpg',height: 200),
                   SizedBox(height: 20),
                   Text("นางนุจสรา โพธิ์เงิน"),
                 ],
